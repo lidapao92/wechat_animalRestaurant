@@ -9,13 +9,19 @@
 ### Mac OS
 
 1. 安装adb
-`brew cask install android-platform-tools`
+```shell
+brew cask install android-platform-tools
+```
 
 2. 把脚本文件发送到Android机器 
+```shell
 adb push start.sh /sdcard
+```
 
 3. 打开动物餐厅界面，启动脚本
+```shell
 adb shell sh /sdcard/start.sh
+```
 
 ## 其他
 本项目仅仅供学习研究，如有侵权请联系删除处理
